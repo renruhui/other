@@ -1,0 +1,246 @@
+body{
+	background:#f4f5f0;
+}
+.content{
+	width:100%;
+	max-width:1030px;
+	padding-left:15px;
+	padding-right:15px;
+	padding-top:20px;
+	/*padding-bottom:70px;*/
+	box-sizing:border-box;
+	margin:0 auto;
+	margin-bottom:70px;
+}
+.content h2{
+	text-align:center;
+	font-size:21px;
+	color:#000000;
+	line-height:60px;
+}
+.content ul{
+	width:100%;
+}
+.content ul li{
+	width:33.33333333%;
+	float:left;
+	height:40px;
+	padding-top:40px;
+	text-align:center;
+	margin-top:10px;
+	background-size:100%;
+}
+.content ul li a{
+	font-size:16px;
+	line-height:50px;
+	padding-top:20px;
+	font-family:"微软雅黑";
+}
+.content ul:nth-of-type(1) li:nth-of-type(1){
+	background:url(../images/xygk_02.jpg) no-repeat center 3px;
+}
+.content ul:nth-of-type(1) li:nth-of-type(1):hover{
+	background:url(../images/xygk_03.jpg) no-repeat center 3px;
+}
+
+.content ul:nth-of-type(1) li:nth-of-type(2){
+	background:url(../images/xygk_06.jpg) no-repeat center 3px;
+}
+.content ul:nth-of-type(1) li:nth-of-type(2):hover{
+	background:url(../images/xygk_07.jpg) no-repeat center 3px;
+}
+
+.content ul:nth-of-type(2) li:nth-of-type(1){
+	background:url(../images/left_link_02.jpg) no-repeat center 3px;
+}
+.content ul:nth-of-type(2) li:nth-of-type(1):hover{
+	background:url(../images/left_link_03.jpg) no-repeat center 3px;
+}
+
+.content ul:nth-of-type(2) li:nth-of-type(2){
+	background:url(../images/left_link_06.jpg) no-repeat center 3px;
+}
+.content ul:nth-of-type(2) li:nth-of-type(2):hover{
+	background:url(../images/left_link_07.jpg) no-repeat center 3px;
+}
+
+.content ul:nth-of-type(2) li:nth-of-type(3){
+	background:url(../images/left_link_08.jpg) no-repeat center 3px;
+}
+.content ul:nth-of-type(2) li:nth-of-type(3):hover{
+	background:url(../images/left_link_09.jpg) no-repeat center 3px;
+}
+
+.content ul:nth-of-type(2) li:nth-of-type(4){
+	background:url(../images/left_link_10.jpg) no-repeat center 3px;
+}
+.content ul:nth-of-type(2) li:nth-of-type(4):hover{
+	background:url(../images/left_link_11.jpg) no-repeat center 3px;
+}
+
+.content ul:nth-of-type(2) li:nth-of-type(5){
+	background:url(../images/left_link_12.jpg) no-repeat center 3px;
+}
+.content ul:nth-of-type(2) li:nth-of-type(5):hover{
+	background:url(../images/left_link_13.jpg) no-repeat center 3px;
+}
+
+.content ul:nth-of-type(2) li:nth-of-type(6){
+	background:url(../images/left_link_14.jpg) no-repeat center 3px;
+}
+.content ul:nth-of-type(2) li:nth-of-type(6):hover{
+	background:url(../images/left_link_15.jpg) no-repeat center 3px;
+}
+
+.content ul:nth-of-type(2) li:nth-of-type(7){
+	background:url(../images/left_link_16.jpg) no-repeat center 3px;
+}
+.content ul:nth-of-type(2) li:nth-of-type(7):hover{
+	background:url(../images/left_link_17.jpg) no-repeat center 3px;
+}
+
+.content ul:nth-of-type(2) li:nth-of-type(8){
+	background:url(../images/left_link_18.jpg) no-repeat center 3px;
+}
+.content ul:nth-of-type(2) li:nth-of-type(8):hover{
+	background:url(../images/left_link_19.jpg) no-repeat center 3px;
+}
+
+.content ul:nth-of-type(2) li:nth-of-type(9){
+	background:url(../images/left_link_20.jpg) no-repeat center 3px;
+}
+.content ul:nth-of-type(2) li:nth-of-type(9):hover{
+	background:url(../images/left_link_21.jpg) no-repeat center 3px;
+}
+
+.content ul:nth-of-type(3) li:nth-of-type(1){
+	background:url(../images/xsjx_1.gif) no-repeat center 3px;
+}
+.content ul:nth-of-type(3) li:nth-of-type(1):hover{
+	background:url(../images/xsjx.gif) no-repeat center 3px;
+}
+
+.content ul:nth-of-type(3) li:nth-of-type(2){
+	background:url(../images/hy_1.gif) no-repeat center 3px;
+}
+.content ul:nth-of-type(3) li:nth-of-type(2):hover{
+	background:url(../images/hy.gif) no-repeat center 3px;
+}
+
+.content ul:nth-of-type(3) li:nth-of-type(3){
+	background:url(../images/ydh_1.gif) no-repeat center 3px;
+}
+.content ul:nth-of-type(3) li:nth-of-type(3):hover{
+	background:url(../images/ydh.gif) no-repeat center 3px;
+}
+
+.content ul:nth-of-type(3) li:nth-of-type(4){
+	background:url(../images/dxs_.gif) no-repeat center 3px;
+}
+.content ul:nth-of-type(3) li:nth-of-type(4):hover{
+	background:url(../images/dxs.gif) no-repeat center 3px;
+}
+
+.content ul:nth-of-type(3) li:nth-of-type(5){
+	background:url(../images/hj_1.gif) no-repeat center 3px;
+}
+.content ul:nth-of-type(3) li:nth-of-type(5):hover{
+	background:url(../images/hj.gif) no-repeat center 3px;
+}
+
+.content ul:nth-of-type(3) li:nth-of-type(6){
+	background:url(../images/dxs_.gif) no-repeat center 3px;
+}
+.content ul:nth-of-type(3) li:nth-of-type(6):hover{
+	background:url(../images/dxs.gif) no-repeat center 3px;
+}
+
+.content ul:nth-of-type(4) li:nth-of-type(1){
+	background:url(../images/service_03.jpg) no-repeat center 3px;
+}
+.content ul:nth-of-type(4) li:nth-of-type(1):hover{
+	background:url(../images/service_04.jpg) no-repeat center 3px;
+}
+
+.content ul:nth-of-type(4) li:nth-of-type(2){
+	background:url(../images/service_05.jpg) no-repeat center 3px;
+}
+.content ul:nth-of-type(4) li:nth-of-type(2):hover{
+	background:url(../images/service_06.jpg) no-repeat center 3px;
+}
+
+.content ul:nth-of-type(4) li:nth-of-type(3){
+	background:url(../images/service_08.jpg) no-repeat center 3px;
+}
+.content ul:nth-of-type(4) li:nth-of-type(3):hover{
+	background:url(../images/service_09.jpg) no-repeat center 3px;
+}
+
+.content ul:nth-of-type(4) li:nth-of-type(4){
+	background:url(../images/service_10.jpg) no-repeat center 3px;
+}
+.content ul:nth-of-type(4) li:nth-of-type(4):hover{
+	background:url(../images/service_11.jpg) no-repeat center 3px;
+}
+.content ul:nth-of-type(1) li{
+	width:50%;
+	float:left;
+}
+.content ul:nth-of-type(4) li{
+	width:25%;
+	float:left;
+}
+.content ul.special{
+	margin-top:30px;
+}
+.content ul.special li{
+	padding-top:0;
+}
+.content ul.special li {
+	height:90px;
+	line-height:90px;
+	text-indent:20px;
+	background:url(../images/bground_06.jpg) no-repeat left center;
+}
+.content ul.special li a{
+	line-height:40px;
+	color:#fff;
+	text-align:none;
+	font-size:16px;
+	font-family: "宋体";
+}
+.content ul.special li a:hover{
+	font-size:19px;
+	font-weight:bold;
+}
+.content h2{
+	line-height:90px;
+	background:url(../images/bground_03.jpg) no-repeat center center;
+}
+@media screen and (max-width:450px ) {
+	.content ul:nth-of-type(2) li span{
+		display:none;
+	}
+	.content ul li a{
+		font-size:15px;
+		font-family:"宋体";
+	}
+	@media screen and (max-width:480px ){
+	.content .left li a{
+		font-size:22px;
+		font-family:"宋体";
+	}
+	.content  .right h2{
+		font-size:16px;
+		font-family:"宋体";
+	}
+	.content span{
+		font-size:15px;
+		font-family:"宋体";
+	}
+	.content  .right p{
+		font-size:14px;
+		font-family:"宋体";
+	}
+}
+ }

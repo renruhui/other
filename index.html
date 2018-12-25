@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--以上代码告诉IE浏览器，IE8/9及以后的版本都会以最高版本IE来渲染页面-->
+		<meta http-eq ="X-UA-Compatible" content="IE=edge"/>
+		<!--显示宽度等于设备宽度，不允许用户缩放-->
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<meta charset="UTF-8">
+		<link href="images/favicon(1).ico" rel="shortcut icon">
+		<title>景秀教育</title>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<!--导航下拉-->
+		<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+		<!--轮播图-->
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css"/>
+		<script src="js/jquery.bxslider.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.bxslider.min.js" type="text/javascript" charset="utf-8"></script>
+		<!--侧边栏-->
+		<script src="js/aside.js" type="text/javascript" charset="utf-8"></script>
+		<!--顶-->
+		<script src="js/uptop.js" type="text/javascript" charset="utf-8"></script>
+		<!--底导航-->
+		<link rel="stylesheet" type="text/css" href="fonts/demo.css"/>
+		<link rel="stylesheet" type="text/css" href="fonts/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="fonts/iconfont.svg"/>
+		<script src="fonts/iconfont.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<!--begin header-->
+		<div class="nomove">
+		<header>
+			<div class="header_min clearfix">
+				<h1><img src="images/logo.gif"/></h1>
+				<ul class="first clearfix">
+					<li class="c_background"><a href="#">首页</a></li>
+					<li><a href="School profile/About the school.html"/>学院概况</a></li>
+					<li><a href="Curriculum/environmental.html"/>课程设置</a></li>
+					<li><a href="The campus/freshmen military training.html"/>校园风采</a></li>
+					<li><a href="#one">学员作品</a></li>
+					<li><a href="faculty/faculty.html"/>师资力量</a></li>
+					<li><a href="College service/The registration process.html"/>学院服务</a></li>
+					<li><a href="contact us/contact us.html"/>联系我们</a></li>
+				</ul>
+				<p>做精品教育</p>
+			</div>
+		</header>
+		</div>
+		<!--APP形式的导航-->
+		<ul class="clearfix change">
+			<li>
+				<a href="#" class="biu">
+					<i class="iconfont">&#xe69c;</i>
+					<span>首页</span>
+				</a>
+			</li>
+			<li>
+				<a href="School profile/About the school.html">
+					<i class="iconfont">&#xe608;</i>
+					<span>概况</span>
+				</a>
+			</li>
+			<li>
+				<a href="into/link.html">
+					<i class="iconfont">&#xe609;</i>
+					<span>更多</span>
+				</a>
+			</li>
+			<li>
+				<a href="Curriculum/environmental.html"/>
+					<i class="iconfont">&#xe62b;</i>
+					<span>课程</span>
+				</a>
+			</li>
+			<li>
+				<a href="faculty/faculty.html">
+					<i class="iconfont">&#xe619;</i>
+					<span>师资</span>
+				</a>
+			</li>
+		</ul>
+		<!--end header-->
+		
+		
+		<!--begin 轮播-->
+		<div class="m">
+			<ul class="bxslider">
+			  <li><a href="Curriculum/Python artificial intelligence.html"><img src="images/banner3.jpg"/></a></li>
+			  <li><a href="Curriculum/Mobile Internet development.html"><img src="images/banner1.jpg"/></a></li>
+			  <li><a href="Curriculum/environmental.html"><img src="images/banner4.jpg"/></a></li>
+			  <li><a href="Curriculum/PHP website development.html"><img src="images/banner5.jpg"/></a></li>
+			  <li><a href="Curriculum/Mobile Internet development.html"><img src="images/banner6.jpg"/></a></li>
+			  <li><a href="Curriculum/Big data cloud computing.html"><img src="images/banner7.jpg"/></a></li>
+			</ul>
+		</div>
+		<script type="text/javascript">
+			$(function(){
+			$('.bxslider').bxSlider({
+				auto: true,
+		  		autoControls: true
+				});
+			});
+		</script>
+		<!--end 轮播-->
+		
+		<!--学院服务 service-->
+		<div class="service">
+			<h2>学院服务</h2>
+			<ul class="clearfix">
+				<li class="clearfix">
+					<a href="College service/The registration process.html">
+						<div class="bg_img"></div>
+						<div class="font">
+							<h3>报名<span>流程</span></h3>
+							<span class="ellipsis">迈出成功第一步</span>
+						</div>
+					</a>
+				</li>
+				<li class="clearfix">
+					<a href="College service/Create a problem.html">
+						<div class="bg_img"></div>
+						<div class="font">
+							<h3><span>常见</span>问题</h3>
+							<span class="ellipsis">问题的答案就在这里</span>
+						</div>
+					</a>
+				</li>
+				<li class="clearfix">
+					<a href="College service/drive circuit.html">
+						<div class="bg_img"></div>
+						<div class="font">
+							<h3><span>行车</span>路线</h3>
+							<span class="ellipsis">准确快速的找到我们</span>
+						</div>
+					</a>
+				</li>
+				<li class="clearfix">
+					<a href="College service/employment service.html">
+						<div class="bg_img"></div>
+						<div class="font">
+							<h3>就业<span>服务</span></h3>
+							<span class="ellipsis">帮学生找到满意的...</span>
+						</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<!--end 学院服务-->
+		<!--begin 课程设置-->
+		<div class="lesson">
+			<h2>课程设置</h2>
+			<ul class="clearfix">
+				<li>
+					<a href="Curriculum/environmental.html">
+						<div class="images"><img src="images/course_03.gif" /></div>
+						<p>环境艺术设计</p>
+						<div class="show">
+							<h2>环境艺术设计</h2>
+							<p>
+								底薪+项目提成的工资组合，更能够通过
+								自己的努力和勤奋，实现自我的肯定。 
+								在北京大量项目经验的积累之后，环艺专
+								业的学生也更容易过渡到自主创业阶 段
+								......
+							</p>
+						</div>
+					</a>
+				</li>
+				
+				<li>
+					<a href="Curriculum/Digital video animation.html">
+						<div class="images"><img src="images/course_05.gif" /></div>
+						<p>数字影视动画</p>
+						<div class="show">
+							<h2>数字影视动画</h2>
+							<p>
+								掌握系统动画理论，具备影视动画绘制及动画设计知识，能够熟练地从事影视 动画制作、影视特效设计、游戏美术设计等工作的应用型高级专业人才......
+							</p>
+						</div>
+					</a>
+				</li>
+				
+				<li>
+					<a href="Curriculum/Big data cloud computing.html">
+						<div class="images"><img src="images/course_11.gif" /></div>
+						<p>大数据云计算</p>
+						<div class="show">
+							<h2>大数据云计算</h2>
+							<p>
+								云计算与大数据专业旨在培养既具备前沿的软件工程思想，又具备大数据分 析与处理、云计算服务端与客户端开发等方面的能力，能够胜任基于云平台 开发，云平台搭建......
+							</p>
+						</div>
+					</a>
+				</li>
+				
+				<li>
+					<a href="Curriculum/PHP website development.html">
+						<div class="images"><img src="images/course_08.gif" /></div>
+						<p>PHP网站开发</p>
+						<div class="show">
+							<h2>PHP网站开发</h2>
+							<p>
+								php是生于互联网,成长于互联网,是计算机软件行业中,专业的互联网开发编程 语言,是专门开发互联网软件程序的网络编程语言。北京软件工程师每年需求达 5万人......
+							</p>
+						</div>
+					</a>
+				</li>
+				
+				<li>
+					<a href="Curriculum/Mobile Internet development.html">
+						<div class="images"><img src="images/course_10.gif" /></div>
+						<p>移动互联网开发</p>
+						<div class="show">
+							<h2>移动互联网开发</h2>
+							<p>
+								Web前端工程师是市场上紧缺的高级人才，每天都有数万家企业招聘该岗位。 HTML5的兴起在互联网的发展史上是一次影响深远的技术革命，彻底解决跨平台、跨设备等技术难题,是众多IT男趋之若鹜的开发利器......
+							</p>
+						</div>
+					</a>
+				</li>
+				
+				<li>
+					<a href="Curriculum/Python artificial intelligence.html">
+						<div class="images"><img src="images/course_12.gif" /></div>
+						<p>Python+人工智能</p>
+						<div class="show">
+							<h2>Python+人工智能</h2>
+							<p>
+								Python凭借超高的开发效率与丰富的类库，加码无人驾驶、个人助理、金融、电商、医疗、教育等各大领域。市场需求量极大，入职年薪基本都是以20k起步，优秀者可达40k-60k。
+							</p>
+						</div>
+					</a>
+				</li>
+				
+				<li>
+					<a href="Curriculum/Through train.html">
+						<div class="images"><img src="images/course_19.gif" /></div>
+						<p>大学直通车</p>
+						<div class="show">
+							<h2>大学直通车</h2>
+							<p>
+								实行半封闭式、军事化管理，传统文化教育贯穿始终，为有志于从事电脑艺术设计和 计算机软件开发专业的适龄（符合国家报考规定）非高中毕业生提供全面的培养计划 ......
+							</p>
+						</div>
+					</a>
+				</li>
+				
+				<li>
+					<a href="Curriculum/Job training for college students.html">
+						<div class="images"><img src="images/course_18.gif" /></div>
+						<p>大学生上岗培训</p>
+						<div class="show">
+							<h2>大学生上岗培训</h2>
+							<p>
+								大学毕业生难于就业的根本原因就是没有一技之长。中关村学院景秀校企合作 中心开办的大学生岗前实训班，其宗旨就是要帮助更多的大学毕业生解决就业难 、高薪就业......
+							</p>
+						</div>
+					</a>
+				</li>
+				<li style="border:0;"></li>
+			</ul>
+		</div>
+		<!--end 课程设置-->
+		<!--begin 校园风采-->
+		<div class="mien clearfix">
+			<div class="mien_link clearfix">
+				<h2>校园风采</h2>
+				<a href="The campus/freshmen military training.html">MORE >></a>
+			</div>
+						<ul class="clearfix">
+				<li>
+					<a href="The campus/Fun Games.html">
+						<div class="pic"><img src="images/campus_03.gif" /></div>
+						<h4><a href="The campus/Fun Games.html">趣闻运动会</a></h4>
+						<p class="ellipsis">运动会中学生们在积极配合的完成比赛</p>
+					</a>
+				</li>
+				<li>
+					<a href="The campus/Environmental art practice base.html">
+						<div class="pic"><img src="images/campus_05.gif" /></div>
+						<h4><a href="The campus/Environmental art practice base.html">环艺实习基地</a></h4>
+						<p class="ellipsis">环艺学生在实训中讨论设计方案</p>
+					</a>
+				</li>
+				<li>
+					<a href="The campus/christmas party.html">
+						<div class="pic"><img src="images/campus_07.gif" /></div>
+						<h4><a href="The campus/christmas party.html">圣诞晚会</a></h4>
+						<p class="ellipsis">圣诞晚会上学生们正在表演自编自导的舞</p>
+					</a>
+				</li>
+				<li>
+					<a href="The campus/Practical training for college students.html">
+						<div class="pic"><img src="images/campus_12.gif" /></div>
+						<h4><a href="The campus/Practical training for college students.html">大学生实训基地</a></h4>
+						<p class="ellipsis">大学生实训中学生正在认真听讲</p>
+					</a>
+				</li>
+				<li class="over">
+					<a href="The campus/Watch drama performances.html">
+						<div class="pic"><img src="images/campus_13.gif" /></div>
+						<h4><a href="The campus/Watch drama performances.html">观看话剧表演</a></h4>
+						<p class="ellipsis">学生业余时间观看话剧表演</p>
+					</a>
+				</li>
+				<li class="over">
+					<a href="The campus/freshmen military training.html">
+						<div class="pic"><img src="images/campus_15.gif" /></div>
+						<h4><a href="The campus/freshmen military training.html">新生军训</a></h4>
+						<p class="ellipsis">新生正在进行刻苦的训练</p>
+					</a>
+				</li>
+			</ul>
+			<div class="btn" id="btn">查看更多  +</div>
+		</div>
+		
+		<!--end 校园风采-->
+		<!--begin 学生作品-->
+		<a name="one"/>
+		<div class="production">
+			<h2>学生作品</h2>
+			<ul class="clearfix">
+				<li>
+					<img src="images/works_03.jpg">
+					<div class="find">
+						<h2>写实图标作品</h2>
+						<p>《相机》</p>
+						<h3>高艺1班-张超</h3>
+					</div>
+				</li>
+				<li>
+					<img src="images/works_04.jpg">
+					<div class="find">
+						<h2>写实图标作品</h2>
+						<p>《播放器》</p>
+						<h3>高艺1班-樊嘉鑫</h3>
+					</div>
+				</li>
+				<li>
+					<img src="images/works_05.jpg">
+					<div class="find">
+						<h2>app设计作品</h2>
+						<p>《百味书屋》</p>
+						<h3>高艺1班-张改改</h3>
+					</div>
+				</li>
+				<li>
+					<img src="images/works_06.jpg">
+					<div class="find">
+						<h2>写实图标作品</h2>
+						<p>《候鸟》</p>
+						<h3>高艺2班-周成林</h3>
+					</div>
+					
+				</li>
+				<li>
+					<img src="images/works_07.jpg">
+					<div class="find">
+						<h2>写实图标作品</h2>
+						<p>《播放界面》</p>
+						<h3>高艺2班-周雪娇</h3>
+					</div>
+				</li>
+				<li>
+					<img src="images/works_09.jpg">
+					<div class="find">
+						<h2>用户界面作品</h2>
+						<p>《播放界面》</p>
+						<h3>高艺2班-陈瑶</h3>
+					</div>
+				</li>
+				<li>
+					<img src="images/works_10.jpg">
+					<div class="find">
+						<h2>app设计作品</h2>
+						<p>《吾食》</p>
+						<h3>高艺2班-郭晓东</h3>
+					</div>
+				</li>
+				<li>
+					<img src="images/works_11.jpg">
+					<div class="find">
+						<h2>写实图标作品</h2>
+						<p>《minivan》</p>
+						<h3>高艺2班-张娇娇</h3>
+					</div>
+				</li>
+				<li class="diffcult">
+					<img src="images/works_12.jpg">
+					<div class="find">
+						<h2>写实图标作品</h2>
+						<p>《保险箱》</p>
+						<h3>高艺2班-高敬</h3>
+					</div>
+				</li>
+				<li class="close">
+					<img src="images/works_13.jpg">
+					<div class="find">
+						<h2>写实图标作品</h2>
+						<p>《玉镯》</p>
+						<h3>高艺2班-刘栋梁</h3>
+					</div>
+				</li>
+				<li class="close">
+					<img src="images/works_14.jpg">
+					<div class="find">
+						<h2>室内设计作品</h2>
+						<p>《会所》</p>
+						<h3>环艺1班-曹军庆</h3>
+					</div>
+				</li>
+				<li class="close">
+					<img src="images/works_15.jpg">
+					<div class="find">
+						<h2>室内设计作品</h2>
+						<p>《售楼处》</p>
+						<h3>环艺1班-付洁琼</h3>
+					</div>
+				</li>
+				<li class="close">
+					<img src="images/works_16.jpg">
+					<div class="find">
+						<h2>室内设计作品</h2>
+						<p>《办公室》</p>
+						<h3>环艺1班-彭帅</h3>
+					</div>
+				</li>
+				<li class="close">
+					<img src="images/works_17.jpg">
+					<div class="find">
+						<h2>室内设计作品</h2>
+						<p>《餐厅》</p>
+						<h3>环艺1班-李增俊</h3>
+					</div>
+				</li>
+				<li class="close">
+					<img src="images/works_18.jpg">
+					<div class="find">
+						<h2>室内设计作品</h2>
+						<p>《客厅》</p>
+						<h3>环艺1班-孙一晶</h3>
+					</div>
+				</li>
+				<li class="close">
+					<img src="images/works_19.jpg">
+					<div class="find">
+						<h2>室内设计作品</h2>
+						<p>《酒吧》</p>
+						<h3>环艺1班-张国锋</h3>
+					</div>
+				</li>
+				<li class="close">
+					<img src="images/works_20.jpg">
+					<div class="find">
+						<h2>3D模型作品</h2>
+						<p>《擎天柱》</p>
+						<h3>大二动画班-常雪江</h3>
+					</div>
+				</li>
+				<li class="close">
+					<img src="images/works_21.jpg">
+					<div class="find">
+						<h2>动画短片</h2>
+						<p>《火星基地》</p>
+						<h3>大二动画班-吴浩楠</h3>
+					</div>
+				</li>
+				<li class="close">
+					<img src="images/works_22.jpg">
+					<div class="find">
+						<h2>3D模型作品</h2>
+						<p>《重型机甲》</p>
+						<h3>大二动画班-李佳钰</h3>
+					</div>
+				</li>
+				<li class="close">
+					<img src="images/works_23.jpg">
+					<div class="find">
+						<h2>3D模型作品</h2>
+						<p>《生化实验室》</p>
+						<h3>大二动画班-张可</h3>
+					</div>
+				</li>
+			</ul>
+			<div class="button" id="button">查看更多  +</div>
+		</div>
+		</a>
+		<!--end 学生作品-->
+		<!--begin 明星学子-->
+		<div class="student">
+			<h2>明星学子</h2>
+			<ul class="clearfix">
+				<li>
+					<img src="images/star_03.jpg" />
+					<div class="over">
+						<h3>曹军庆</h3>
+						<p>菲律宾晟巨集团</p>
+						<h2>月薪12000</h2>
+					</div>
+				</li>
+				<li>
+					<img src="images/3.gif" />
+					<div class="over">
+						<h3>武思邈</h3>
+						<p>梦景星空文化传播有限公司</p>
+						<h2>月薪11000</h2>
+					</div>
+				</li>
+				<li>
+					<img src="images/4.gif" />
+					<div class="over">
+						<h3>吴浩楠</h3>
+						<p>卷石影视文化传媒有限公司</p>
+						<h2>月薪10000</h2>
+					</div>
+				</li>
+				<li>
+					<img src="images/5.gif" />
+					<div class="over">
+						<h3>刘世伟</h3>
+						<p>北京伟景行科技股份有限公司</p>
+						<h2>月薪10000</h2>
+					</div>
+				</li>
+				<li>
+					<img src="images/star_15.jpg" />
+					<div class="over">
+						<h3>吴华华</h3>
+						<p>北京华力创通科技有限公司</p>
+						<h2>月薪10000</h2>
+					</div>
+				</li>
+				<li>
+					<img src="images/star_16.jpg" />
+					<div class="over">
+						<h3>李鑫</h3>
+						<p>兴华永恒科技有限责任公司</p>
+						<h2>月薪9000</h2>
+					</div>
+				</li>
+				<li class="hide">
+					<img src="images/star_17.jpg" />
+					<div class="over">
+						<h3>王嘉敏</h3>
+						<p>北京中天瑞合有限公司</p>
+						<h2>月薪8000</h2>
+					</div>
+				</li>
+				<li class="hide">
+					<img src="images/star_18.jpg" />
+					<div class="over">
+						<h3>司春晨</h3>
+						<p>北京中盛益华科技有限公司</p>
+						<h2>月薪8000</h2>
+					</div>
+				</li>
+				<li class="hide">
+					<img src="images/6.gif" />
+					<div class="over">
+						<h3>王云迪</h3>
+						<p>北京分形科技</p>
+						<h2>月薪12000</h2>
+					</div>
+				</li>
+				<li class="hide">
+					<img src="images/7.gif" />
+					<div class="over">
+						<h3>刘棋棋</h3>
+						<p>北京优家信息科技有限公司</p>
+						<h2>月薪9000</h2>
+					</div>
+				</li>
+				<li class="hide">
+					<img src="images/8.gif" />
+					<div class="over">
+						<h3>贺淑青</h3>
+						<p>北京蓝杉互动科技公司</p>
+						<h2>月薪11000</h2>
+					</div>
+				</li>
+				<li class="hide">
+					<img src="images/9.gif" />
+					<div class="over">
+						<h3>李辉</h3>
+						<p>北京万象科技有限公司</p>
+						<h2>月薪10000</h2>
+					</div>
+				</li>
+				<li class="hide">
+					<img src="images/10_03.gif" />
+					<div class="over">
+						<h3>李国华</h3>
+						<p>北京奥瑞新装饰工程有限公司</p>
+						<h2>月薪10000</h2>
+					</div>
+				</li>
+				<li class="hide">
+					<img src="images/10_05.gif" />
+					<div class="over">
+						<h3>张敏超</h3>
+						<p>墨湃文化有限公司</p>
+						<h2>月薪8000</h2>
+					</div>
+				</li>
+				<li class="hide">
+					<img src="images/10_07.gif" />
+					<div class="over">
+						<h3>陈玉博</h3>
+						<p>北京崇盛国际贸易有限公司</p>
+						<h2>月薪8000</h2>
+					</div>
+				</li>
+				<li class="hide">
+					<img src="images/10_09.gif" />
+					<div class="over">
+						<h3>焦点</h3>
+						<p>北京中艺建筑装饰有限公司</p>
+						<h2>月薪8000</h2>
+					</div>
+				</li>
+				<li class="hide">
+					<img src="images/star_24.jpg" />
+					<div class="over">
+						<h3>汪瑞</h3>
+						<p>好车无忧网</p>
+						<h2>月薪18000</h2>
+					</div>
+				</li>
+				<li class="hide">
+					<img src="images/star_03.jpg" />
+					<div class="over">
+						<h3>马永丽</h3>
+						<p>北京联宇科讯科技公司</p>
+						<h2>月薪7000</h2>
+					</div>
+				</li>
+				<li class="hide">
+					<img src="images/10_16.gif" />
+					<div class="over">
+						<h3>李甜甜</h3>
+						<p>北京试金石科技有限公司</p>
+						<h2>月薪10000</h2>
+					</div>
+				</li>
+				<li class="hide">
+					<img src="images/10_17.gif" />
+					<div class="over">
+						<h3>闫杰</h3>
+						<p>独立影视特效师</p>
+						<h2>年薪20万</h2>
+					</div>
+				</li>
+			</ul>
+			<div class="push" id="push">查看更多  +</div>
+		</div>
+		<!--end 明星学子-->
+		<!--begin 就业单位-->
+		<div class="employment">
+			<h2>就业单位</h2>
+			<ul class="clearfix">
+				<li><img src="images/employment_03.jpg"/></li>
+				<li><img src="images/employment_05.jpg"/></li>
+				<li><img src="images/employment_07.jpg"/></li>
+				<li><img src="images/employment_09.jpg"/></li>
+				<li><img src="images/employment_11.jpg"/></li>
+				<li><img src="images/employment_13.jpg"/></li>
+				<li><img src="images/employment_21.jpg"/></li>
+				<li><img src="images/employment_22.jpg"/></li>
+				<li class="hiden"><img src="images/employment_23.jpg"/></li>
+				<li class="hiden"><img src="images/employment_24.jpg"/></li>
+				<li class="hiden"><img src="images/employment_25.jpg"/></li>
+				<li class="hiden"><img src="images/employment_26.jpg"/></li>
+				<li class="hiden"><img src="images/employment_33.jpg"/></li>
+				<li class="hiden"><img src="images/employment_34.jpg"/></li>
+				<li class="hiden"><img src="images/employment_35.jpg"/></li>
+				<li class="hiden"><img src="images/employment_36.jpg"/></li>
+				<li class="hiden"><img src="images/employment_37.jpg"/></li>
+				<li class="hiden"><img src="images/employment_38.jpg"/></li>
+			</ul>
+			<div class="come" id="come">查看更多  +</div>
+		</div>
+		<!--end 就业单位-->
+		<!--begin footer-->
+		<footer>
+			<div class="footer_min">
+				<ul class="clearfix">
+					<li>
+						<p>
+							 咨询电话：010-50972968 <br />
+							 <span>010-50972977</span>
+						</p>
+					</li>
+					<li>
+						<p> 
+ 							咨询邮箱：bjjxkj@126.com
+						</p>
+						<p>
+							Mobile  ：15321575023
+						</p>
+					</li>
+					<li>
+						<p>
+							在线咨询：
+							<a href="#"><img src="images/2.gif" align="center"/></a>
+						</p>
+					</li>
+					<li>
+						<p>
+							学院网址：http://www.zgcxueyuan.com
+						</p>
+						<p>
+							学院地址：景秀教育(北京)校企合作中心     <br />             
+							<span>海淀区苏家坨后沙涧七区</span>
+						</p>
+					</li>
+				</ul>
+			</div>
+		</footer>
+		<div class="copyright">
+			<div class="min_copyright">
+				<p>京ICP备16054319号-1&nbsp;&nbsp;&nbsp;&nbsp;     <span>京公网安备：11010802027362</span></p>
+			</div>
+		</div>
+		<!--end footer-->
+		<!--begin 置顶-->
+		<a class="back" id="toTop" href="javascript:void(0)" style="display:block;">
+			<span></span>
+		</a>
+		<!--end 置顶-->
+		<!--begin 侧边对话框-->
+		<div class="aside_online" style="right:-138px;">
+			<p class="aside_title" style="display: block;"></p>
+			<div class="online">
+				<small id="del">-</small>
+				<div class="qq">
+					<h2>在线咨询</h2>
+					<p><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=1718693915&amp;site=qq&amp;menu=yes">学费咨询</a></p>
+					<p><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=3203070076&amp;site=qq&amp;menu=yes">课程咨询</a></p>
+					<p><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=2044922632&amp;site=qq&amp;menu=yes">大学生实训</a></p>
+				</div>
+				<div class="tel">
+					<h2>电话咨询</h2>
+					<p>15320575023</p>
+				</div>
+				<div class="wechart">
+					<img src="images/info_07.jpg" alt="">
+					<p>扫我有惊喜</p>
+				</div>
+				<div class="upSlide" id="upSlide" href="javascript:void(0)">
+					<span>
+						&gt;
+					</span>
+				</div>
+			</div>
+		</div>
+		<!--end  侧边对话框-->
+	</body>
+</html>

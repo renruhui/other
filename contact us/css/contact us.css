@@ -1,0 +1,60 @@
+.content{
+	width:100%;
+	max-width:1030px;
+	padding-left:15px;
+	padding-right:15px;
+	box-sizing:border-box;
+	margin:0 auto;
+	margin-top:40px;
+}
+.content h2,
+.content span,
+.content p{
+	display:block;
+	text-align:center;
+}
+.content h2{
+	font-size:17px;
+	color:#fa9634;
+	line-height:50px;
+}
+.content span{
+	font-size:23px;
+	line-height:40px;
+	font-weight:bold;
+	color:#000000;
+}
+.content p{
+	font-size:16px;
+	line-height:30px;
+	color:#2f0000;
+}
+.content div{
+	height:400px;
+	max-width:669px;
+}
+
+@media screen and (max-width:480px) {
+	.content span span{
+		display:block;
+	}
+	.content div{
+		height:300px;
+	}
+	.content .left li a{
+		font-size:20px;
+		font-family:"";
+	}
+	.content  .right h2{
+		font-size:16px;
+		font-family:"宋体";
+	}
+	.content span{
+		font-size:15px;
+		font-family:"宋体";
+	}
+	.content  .right p{
+		font-size:14px;
+		font-family:"宋体";
+	}
+}
